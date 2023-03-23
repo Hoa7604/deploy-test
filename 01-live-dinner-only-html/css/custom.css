@@ -1,0 +1,96 @@
+*{margin: 0; padding: 0; font-family: 'Rubik', sans-serif; font-weight: 500;}
+
+.font-style1 {font-weight: 100;}
+.font-style2 {font-weight: 300;}
+.font-style3 {font-weight: 400;}
+.font-style4 {font-weight: 500;}
+.font-style5 {font-weight: 700;}
+.font-style6 {font-weight: 900;}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+/* CONTACT */
+.all-pages {
+    background-image: url(../images/all-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+}
+.all-pages .container {}
+.all-pages .container .row {
+    width: 100%;
+}
+.all-pages .container .row .wrap {
+    text-align: center;
+    display: inline-block;
+    line-height: 50vh;
+    width: 100%;
+}
+.all-pages .container .row .wrap h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contact-box-start{
+    background-color: #ffffff;
+    border: none;
+    padding-top: 50px;
+}
+.contact-box .container {}
+.contact-box .container .row {}
+
+.contact-box .container .row .title-box {}
+.contact-box .container .row .title-box .wrap-title {}
+.contact-box .container .row .title-box .wrap-title h2{}
+.contact-box .container .row .title-box .wrap-title p{}
+
+.row .wrap-form {width: 100%;}
+
+#contactForm {width:100%;}
+#contactForm .wrap-sub-form {}
+#contactForm .wrap-sub-form input[type="text"]{
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#contactForm .wrap-sub-form input[type="phone"]{
+    width: 50%;
+    height: 30px;
+    box-sizing: border-box;
+    float: left;
+    padding: 5px;
+}
+
+#contactForm .wrap-sub-form textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#contactForm .wrap-sub-form input[type="submit"]{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #d66106;
+    box-sizing: border-box;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+
+}
+
+#contactForm .wrap-sub-form .wrap {}
+#contactForm .wrap-sub-form .wrap .box {padding-bottom: 20px; overflow: hidden;}
+
+/* END CONTACT */
+
